@@ -1,0 +1,15 @@
+### Send POST request with json body
+POST http://localhost:8080/batch/sync
+Content-Type: application/json
+
+{
+  "id": "sjahn4"
+}
+
+### Send POST request with json body
+POST http://localhost:8080/batch/async
+Content-Type: application/json
+
+{
+  "id": "sjahn5"
+}
